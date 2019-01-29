@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png" type="image/x-icon"/>
+        <title>Google</title>
+        <style>
+            body {
+                margin: 0 auto;
+                font-family: arial,sans-serif;
+            }
+            header {
+                float: right;
+            }
+
+            header img{
+                width: 15px;
+                height: 15px;
+            }
+
+            header a {
+                text-decoration: none;
+                color: black;
+                font-size: 0.8rem;
+            }
+
+            li {
+                list-style-type: none;
+                display: inline-block;
+                margin: 0px 10px;
+            }
+
+            main {
+                text-align: center;
+                padding-top: 15%;
+                padding-bottom: 14%;
+            }
+
+            input {
+                width: 40%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            .button {
+                background-color: #f8f8f8;
+                text-decoration: none;
+                color: #222;
+                border: 1px solid #c6c6c6;
+                box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+                padding: 5px 7px;
+            }
+
+            .blue {
+                color: blue;
+                display: inline;
+            }
+
+            .left {
+                text-align: left;
+                float: left;
+            }
+
+            .right {
+                text-align: right;
+            }
+            .footer {
+                color: rgba(0,0,0,.54);
+                font-size: small;
+                border-top: 1px solid #c6c6c6;
+                background-color: #f8f8f8;
+                padding: 10px 20px;
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <a href="#"><li>Gmail</li></a>
+                <a href="#"><li>Afbeeldingen</li></a>
+                <a href="#"><li><img src="https://www.pngkey.com/png/detail/207-2070054_grid-menu-gallery-set-collection-android-interface-google.png" alt="Menu"></li></a>
+                <a href="#"><li><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxATEA8TEw8VEhUXFRUXFRUXDw8PEBUQFRUXFhUXFxUYKCogGBslHRUVITEhJSksLi4uFx8zODYtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEBAAIDAQEAAAAAAAAAAAAAAQcIAgUGBAP/xABHEAABAgMFBgMCCQoEBwAAAAABAAIDETEEBSFhcQYHEkFRsRMi8YGRFDJSVIKSk6HwCCMlQnN0orKzwSQ0YnIXMzVDY4Oj/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM3pPoh6KZD0QUnkEJ5c1KYBKZlBSZZlCZKUzKUxNfxRBZyqk+ZUzPomZQUHmcEBUroldO6Cgz0Sc9FK6JkEFn0QnkFMh6JTAIKTyCE+0qU1SmZQUmSTlVSmJqmZ9EFnzKA8ypmUriaIKCgM9FK6d0rp3QUGeiT6KVwCZD0QUnkEJ5BSmASmqCk+9Wa40zKoEq1QVVRVBxJ5BSmAVJ6VUpmUCmZSmZSmZSmJqgUxNUzPomZ9EzKBmUroldErp3QK6d0roldEc6uMgKmgAQMgmQ9F4vaLendFkm02nx3j9SABGMxgRxTDAdXLH17b/YmIstha0cnxojnk5ljJS+sUGdaYBKZlavW3fDfUQ+W0sgjmIdng93hx+9dVG3i3y6t5Rxo8M/lkg22pmUpiarUeDvDvhpwvKP8ASicf8012di3u33DcD8MEUD9WJAgOHvADvvQbS5n0TMrAd1b/AC0ggWmxQoucJ74Jl1k7iBPuXvrg3vXRaSA+M6yu+THaGNn18QEslqQg99XE0SundcYUVrwHNcHMOIIIc1w6gioXKundArp3SuASuATIeiBkPRKYBKYBKaoFNUpmUpmUpiaoFMTVUDmVMyqBzKCqqTVQcSZaqUzKpMlKYmv4wQKYmqZn0TM+iZlAHUpXRK6JXTugV07pXRfhb7bDhQ3xIsRsOGwTe9xDWgDNa9byN7ka18dnsZdAs2ILwS2PGbznzhsPyRiRWvCAyRt3vbsVh4oUGVqjjAtY8CCwgyIfEE8Rj5RM4SMlgrarbu8beSI9oIh8oEOcKAPoj41KuJK8yiAiIgIiICIiAiIg7vZva23WF07NaXwxOboc+OC6k+KGcCcJTrms4bEb6LLaeGFbQ2yRTgIk/wDDP9pxhfSmM+S10RBu+HAgcNOtRJKYBav7u96Fqu4thRJ2iyzxhl3nhjmYRNOvCcDlOa2RuO+bPaoDI9niCKx9CKg8w4VaRzBQffTVKZlKZlKYmv4wQKYmv4omZTMpmUDMqjHFSuJoqMdO6DlNERBxOGKmZ9FT1KmZQMyldEroldO6BXTuvwt9shwocSLEeIcNjS57yZANFV+9dFrnvs2++FxjY7O//DQXSeQfLGjtNZ82NOA5EzOPlkHT7z94cW8opYwmHZGH83DoXkf9yJ1PQUAzmT4REQEREBERAREQEREBERAREQF6nYDba0XZaOOH54TiBGgk+V7eo+S8cj3GC8siDc+4L6gWuzw7TAfxseMOTgebCOTgcCF2GZWrO6nbp122oB7ibLFIEZteB1BGaOo5yqOpAltJCiNc0PDgWkAtIILS0iYIPOaDlmUriaJXE0SundArp3VnPRSundWfRByRSSqDiRzKldFSFK6d0CundK6JXRHOrjICpoAEGO99e2XwGxeDCdKPaA5jSJgsgjCI8EUOIaMySPirWRem3i7SG33jaI85wwfDgDpAYSG6cWLjm8rzKAiIgIiICIiAucKG5xDWtLnEyAALiSaAAVKyBspufvO1tbEe1tkhnEOi8XilvVsIY/W4Vljdxuth3bHiR3WkWl5ZwMPwfwvDmZv4TxOmTICeGE+pQa1WuyRYTuGLDfDdKfC9jmOkecnYr8VtnvF2HhXrAhwzEEGJDfxMjeEIrg0ghzJTGBwNatCxBtBuOvCCC6zxYdrAEy0AwI3sa4lp+tNBitF+tps74b3MiMcx7TJzHNLHtcORacQV+SAiIgIiIC2A3A7YeNCdd8Z83wWl8AknzQJ+ZkzzYSJD5J6NWv67LZ2+IljtVntMP40J4dKcg5tHMJ6OaS06oNza6d0rp3Xz3fbWR4MKNDM4cRjXtNJtcARpVfRXAIFcArPkFMh6K5BBZKqKoOJE9FK6KnHRTIIGQXi98N+/BLotJaZPiygMqDOKDxSPIhgefYF7TIeiwV+Ujef5yw2UHBrXxnjqXHgYT9V/vQYVREQEREBERAWc9xm71hYy8bUziJM7NDc3BoBl4xBqSR5egE+YlhW7bIYsaDCBkYkRjAehe4N/ut0bJZmQ4cOEwcLGNaxoHJrQAAPYEH6107pXAJXAJkPRAyHolMAlMAlNUGP97O7+HeFndFhMAtkNpLHCQMVox8J/X/STQ5ErWFwMyCJSqKSW71MytT97N1iz3zbmNEmueIo6fnmNiOllxOcPYg8giIgIiICIiDY/8n6/DHu59mc7zWaJIYknwYs3s/iEQaALKGQ9Frd+T7ehh3o6CXSEeC9susSH+cadeFr/AHrZHIIGQVGGHNSmAqqMNUHJFFUHE9FMh6Kk8gpTAIFMAtXt+NrMS+rS3lCZBhg/+trz/E9y2hpmVqTvRi8V83kekdw+qA3+yDyyIiAiIgIiIO32RH6Qu/8AerP/AFWrcg44Bab7Ij9IXf8AvVn/AKrVuSTyHogmQ9EpgEpgEpqgU1SmZSmZSmJqgUxNVrJv6/6zF/ZQf5Vs3mVrJv6P6Zi/soP8qDHaIiAiIgIiIPR7uraYV7Xc8fOIbD/tiO8N33PK28pgKrS25IpbarM/5MaGfc8Fbp01KCUzKoEq1UpiaqgcygqqiqDiTyClMyqT71KZlApmVqPvOhFt8XkP/O931vN/dbcUxNVq1vssjod92yYkIghRG6GEwH+JrkHhUREBERAREQdvsiP0hd/71Z/6rVuSegWnGxkNzryu4ATJtVnl9q1bj0pVBKapTMpTMpTE1QKYmqZlMymZQMytZN/R/TMX9lB/lWzdcTRazb/GkXy8kSDoMEtPUSImPaCPYgxyiIgIiICIiD7Lnhl9os7Rziwx73gLdSmK0+2Bspi3pdzAJ/4mCSP9LXhzvuaVuBmUDMqgcypmfRUY4oLNVSaqDiTJSmJqqcMVMz6IGZ9FgP8AKQu0i02K0gf8yE6Eek4TuITzIiH3LPmZXgd91yG03RGeB5rO4R29eFoLYk8uBzj9EINXkREBERAXY7PXPFtlqgWaFLjivDQT8UCrnHIAE+xdcu+2Fv5thvCzWt8MxGwi+bWkBx4ob2YE/wC6fsQbA7EbqLHd8Zlo8V9ojtaQ0uDWQ2OIk5zWDEGRIxJqsgUzKw+3f7ZPmEb7SEoN/tk+YRvtISDMNMTVMysPDf7ZJ/5CN9pCT/j7ZJ/5CN9pCQZhzKVxNFh47/bJ8wjfaQkdv9snzGN9pCQZhrp3Xk9utgLJeghGKXw3w5hsWGW8RaascHAhzZ49QaVM/Fu3+2T5jG+0hId/tk+YRvtISDFG8LY6Jdlr8F0QRWObxwokuEuZMghzeTgQR7jzw8uvbb0ttYV6RrPEhwXwhDhlhDnNcSS4umJLxKAiIgIiIMj7hLt8W92xJeWBCiRJ8uJw8Jo/+hPsWzGZ9Fib8na4/CsVotbhjHicLP2UGYmNXuePohZZriUCuJVGOndSundWc9O6DkiIg4nqVMyqRzKlcTRAriaLjFhB7XNcJscCCDRzSJEHKS5V07pXTug0720uB1ht1psxnJjz4bj+tBdjDdPmeEicuYI5LpFsXv52Q+E2UW2E2cWzNPiAAeezVP1DN2hfktdEBERAREQEREHJj5EEAGRBxEwZdRzC2u2Zum5bbZYNphXbYix7QSPgVlmx8vOx3lwcDMLU9dtcG0ttsTi6y2l8Eu+MAQWO6cTHTa46hBtVG2UuhjXPfdtiYxoLnOdY7K1oaBMkktwAC1Y2wt9njW61RbPCbCguefCYyG2EwQ2gNaQwABswOKXUlfRtBtvedsZ4dptj4jMDwAMhQyQZjibDADpHqvPICIiAiIgIiIC+u6rviWiPBgQhxPiPaxtZTcZTMqAVJ5AFfIs4fk+bHfHvKK3DzQ7MCBLpEij72D6eSDMNx3XDs1mgWdnxIUNrG8ieESLjmTM+1fdXTuldO6V07oFdO6s+ilcBRWfIIOUkUkqg4kKV07qkT0Urp3QK6d0rgErgEyHogOAI4ZYUOExJav73dhTd1q8SE0/BYxJhmRIhvqYRPLq3qOsitoKYBfBftzwLVZ4lnjs42RBIjmDycDyIOIOSDS9F6nb/AGJtF2Wjw3zfCdMwY0pNe3oejxzHtoQvLICIiAiIgIiICIiAiIgIiICIu62T2ZtNvtLIEBkycXvM/Dhw+b3nkO9Ag+/d3sdEvK2NhCbYTJOjxAMGQ50BpxOxAGpoCtsLDZIcKHDhQ2BkNjQ1jRQNaJALqdjtl7Pd9lZZ4IwGL3kAPixDV7v7DkAF3ldO6BXTulcBRK4CiZBAyCuQUyCtMEFVUVQcSJ6KVwCp6KZD0QMh6JTAJTAJTVApqlMylMylMTX8UQdff1yWe1wHwLTDERj+VCHciw1a4dQtad4e7W1Xa5zwDGspPljAeZk6NjAfFPKdDhQmQ2mzK4xIbXNcHtBaQQWkAtLTUEGqDSJFsBtxuThRuONd7m2d5xMB5PgOxmeB2JhnLFtPihYQvy4rVY4nh2mzvguxlxN8rgJTLHDyvGIxBKDrkREBERAREQEREBF9d2XbHtEQQoEF8Z5/VYwvdKYEzKgxGJwCzLsNuP8AixbyfhUWaG/lKkWIKaM+tyQY42G2Etl5RJQm8EJpAiR3A+EwcwPlvl+qMpkDFbNbIbK2W77OINnZIYF7zIxIr/lPPYUC7axWOHChshwobYcNok1jWhjQMgKL9q6d0CundK4CiVwFEyCBkEyCZBKYCqBTAVVGGqlMyqMNUFVUVQcSeQUpgFSeQUpqgU1SmZSmZSmJqgUxNfxgmZTMpmUDMpXE0SuJoldO6BXTuvnt9hgx2GHGhMiwzVr2Ne0+w919FdO6VwCDF+0O5C7o5c6zPiWR2X5+DP8A2OM/c4BY+vfchekMuMF0G0gU4YnhRDq18gD9IrZHIeiZBBqHb9hL2hGT7utGrILozfrQ5hdTGui1NPns0ZmsGI3uFulTAVVpmUGlcK67Q8ybZ4rtIMR3YLs7HsVekUgMu60mdCbPEY36zgB963BpVTMoNZ7r3K3vFl4jYVmbz8SMHulk2Hxe6YXv9n9xVihSda7REtJ+Q0fB4WhkS4+xwWWcz6JXEoPhue57NZofBZ4EOAz5LGBkz1cRi45lfdXTuldO6V07oFdO6VwFErgKJkEDIJkEyCUwFUCmAqlMylMylNUCmqoHMqUxKoHMoKqiIOJPvUpmVyKgEseaCUxNUzKoHMoBzKCZlK4misp1SU9O6CV07pXTuqcdEPRBK4BMh6KnoEyCCZBKYCqtKVSUsyglMylMTVUCWPNAOZQTMpmfRUDmUlOqCVxKV07qynp3Q46d0Erp3SuAoqeiHoEEyCZBXIJSiCUwFUpmVZSzKAS1QSmqUxKoHMoBzKCZn0VGOJSU8SldEFmqiIIiqIIhVRAKIiAoFUQQIqiAoqiCIqiCFCqiAiIgBQKogiKogiKogiqIghVREEREQf/Z"
+                     alt="Notifications"></li></a>
+                <a href="#"><li>Aanmelden</li></a>
+            </ul>
+        </header>
+        <main>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            <br>
+            <input type="text" name="search">
+            <br>
+            <br>
+            <a href="#" class="button">Google zoeken</a>
+            <a href="#" class="button">Ik doe een gok</a>
+            <br>
+            <br>
+            <div>Google aangeboden in: <p class="blue">Francais Deutsch English</p></div>
+        </main>
+        <footer>
+            <div class="footer">Belgie</div>
+            <div class="footer">
+            <ul class="left">
+                <li>Adverteren</li>
+                <li>Bedrijf</li>
+                <li>Over</li>
+            </ul>
+            <ul class="right">
+                    <li>Privacy</li>
+                    <li>Voorwaarden</li>
+                    <li>Instellingen</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
